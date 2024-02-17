@@ -9,7 +9,6 @@ html {
 }
 
 h1 {
-    font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
@@ -108,11 +107,8 @@ p {
 }
 
 #sobre-mim {
-    height: 80vh;
+    height: 75vh;
     background-color: #654534;
-}
-
-#sobre-mim {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +123,7 @@ p {
 }
 
 .sobre-mim-content h1 {
+    font-size: 20px;
     margin-bottom: 15px;
     color: white;
 }
@@ -134,6 +131,7 @@ p {
 .sobre-mim-content p {
     color: white;
     font-size: 10px;
+    padding-bottom: 10px;
 }
 
 /* .sobre-mim-content h1 {
