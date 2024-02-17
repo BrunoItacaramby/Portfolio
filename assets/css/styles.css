@@ -140,10 +140,16 @@ p {
     align-items: start;
 } */
 
-#teste {
-    height: 100vh;
+.habilidades-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
+.skill-box img {
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
 
 @keyframes pisca {
     0%, 100% {
