@@ -156,12 +156,18 @@ p {
     align-items: center;
     justify-content: space-between;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin: 0 25px;
+    padding: 25px 0;
 }
 
 .skill-img img {
-    width: 75px;
+    width: 85px;
 }
+
+.skill-content:nth-child(1) .skill-img img {
+    width: 150px;
+}
+
 
 .skill-text p{
     padding-right: 45px;
@@ -174,19 +180,15 @@ p {
 }
 
 .habilidades-content {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .skill-img {
     display: flex;
-    /* width: 150px; */
-    justify-content: center;
+    min-width: 150px;
     align-items: center;
-}
-
-#testeimg img {
-    width: 250px;
+    justify-content: center;   
 }
 
 @keyframes pisca {
