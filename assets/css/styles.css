@@ -147,7 +147,7 @@ p {
 } */
 
 #habilidades {
-    height: 100vh;
+    height: 165vh;
     background-color: #3d322c;
 }
 
@@ -195,6 +195,7 @@ p {
 .habilidades-content h1 {
     font-size: 50px;
     margin: 55px 0;
+    color: white;
 }
 
 .skill-img {
