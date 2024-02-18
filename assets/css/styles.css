@@ -143,23 +143,37 @@ p {
 #habilidades {    
     height: 75vh;
     background-color: #3d322c;
-    overflow: hidden;
+}
+
+.skill-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.skill-img img {
+    width: 35px;
+}
+
+.skill-text {
+
+    padding-right: 45px;
 }
 
 .habilidades-content {
-    max-width: 500px;
-    margin: 0 auto;
+    margin: 0 35px;
 }
 
-.skill-box img {
-    width: 45px;    
-}
-
-.skill-box {
+.skill-img {
     display: flex;
-    justify-content: right;
+    /* width: 150px; */
+    justify-content: center;
     align-items: center;
-    padding: 15px 0;
+}
+
+#testeimg img {
+    width: 250px;
 }
 
 @keyframes pisca {
