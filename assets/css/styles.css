@@ -140,15 +140,26 @@ p {
     align-items: start;
 } */
 
+#habilidades {    
+    height: 75vh;
+    background-color: #3d322c;
+    overflow: hidden;
+}
+
 .habilidades-content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .skill-box img {
-    width: 100%;
-    max-width: 50px;
-    max-height: 50px;
+    width: 45px;    
+}
+
+.skill-box {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px 0;
 }
 
 @keyframes pisca {
