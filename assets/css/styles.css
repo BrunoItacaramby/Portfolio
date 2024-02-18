@@ -9,13 +9,13 @@ html {
 }
 
 h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 li {
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p {
@@ -48,7 +48,7 @@ p {
     height: 5rem;
 } */
 
-.menu-content ul{
+.menu-content ul {
     display: flex;
     list-style: none;
 }
@@ -101,7 +101,7 @@ p {
     font-size: 30px;
 }
 
-.meu-nome::after{
+.meu-nome::after {
     content: '|';
     margin-left: 5px;
     opacity: 1;
@@ -146,7 +146,7 @@ p {
     align-items: start;
 } */
 
-#habilidades {    
+#habilidades {
     height: 100vh;
     background-color: #3d322c;
 }
@@ -173,7 +173,7 @@ p {
 }
 
 
-.skill-text p{
+.skill-text p {
     padding-right: 45px;
     font-size: 25px;
 }
@@ -192,13 +192,16 @@ p {
     display: flex;
     min-width: 150px;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
 
 @keyframes pisca {
-    0%, 100% {
+
+    0%,
+    100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
