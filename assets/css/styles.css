@@ -164,11 +164,11 @@ p {
     width: 85px;
 }
 
-.skill-content:nth-child(1) .skill-img img {
+.skill-content:nth-child(2) .skill-img img {
     width: 150px;
 }
 
-.skill-content:nth-child(3) .skill-img img {
+.skill-content:nth-child(4) .skill-img img {
     width: 120px;
 }
 
@@ -187,6 +187,14 @@ p {
 .habilidades-content {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades-content h1 {
+    font-size: 50px;
+    margin: 55px 0;
 }
 
 .skill-img {
