@@ -147,7 +147,7 @@ p {
 } */
 
 #habilidades {    
-    height: 75vh;
+    height: 100vh;
     background-color: #3d322c;
 }
 
@@ -166,6 +166,10 @@ p {
 
 .skill-content:nth-child(1) .skill-img img {
     width: 150px;
+}
+
+.skill-content:nth-child(3) .skill-img img {
+    width: 120px;
 }
 
 
