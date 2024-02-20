@@ -243,8 +243,14 @@ p {
     bottom: 50px;
 }
 
-#ver-mais {
-    padding: 35px;
+#botao-habilidades {
+    padding: 15px;
+    background-color: #654534;
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+
 }
 
 @keyframes pisca {
