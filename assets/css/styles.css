@@ -243,6 +243,10 @@ p {
     bottom: 50px;
 }
 
+#ver-mais {
+    padding: 35px;
+}
+
 @keyframes pisca {
 
     0%,
