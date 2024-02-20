@@ -66,7 +66,7 @@ p {
 }
 
 #inicio {
-    height: 100vh;
+    min-height: 100vh;
     background: #3d322c;
     align-items: center;
     display: flex;
@@ -113,7 +113,7 @@ p {
 }
 
 #sobre-mim {
-    height: 75vh;
+    min-height: 75vh;
     background-color: #654534;
     display: flex;
     justify-content: center;
@@ -147,8 +147,35 @@ p {
 } */
 
 #habilidades {
-    height: 165vh;
+    max-height: 50rem;
     background-color: #3d322c;
+    overflow: hidden;
+    position: relative; 
+}
+
+/* #habilidades::after {
+    content: 'aaa ';
+    position: absolute;
+    box-shadow: inset rgb(15, 15, 15) 50px 1rem 5rem ;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+} */
+
+#gradiente {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(61, 50, 44, 0), #3d322c);
+}
+
+.teste {
+    height: 100vh;
 }
 
 .skill-content {
@@ -203,6 +230,12 @@ p {
     min-width: 150px;
     align-items: center;
     justify-content: center;
+}
+
+.button button{
+    position: absolute;
+    bottom: 0;
+    left: 35px;
 }
 
 @keyframes pisca {
