@@ -263,18 +263,29 @@ p {
 
 .projetos-container h1 {
     font-size: 85px;
+    margin: 35px 0;
 }
 
 .projeto-content {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    width: 300px;
+    height: 300px;
+    background-color:#3d322c;
+    border-radius: 25px;
+}
+
+.grid :nth-child(1) {
+    background-image: url(../imgs/Mongodb_Logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* width: 300px;
+    height: 300px; */
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 0.1fr);
-    gap: 15px;
+    gap: 40px;
     /* position: relative; */
     justify-content: center;
     /* align-content: center; */
