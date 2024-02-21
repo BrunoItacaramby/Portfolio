@@ -264,6 +264,7 @@ p {
 .projetos-container h1 {
     font-size: 85px;
     margin: 35px 0;
+    color: white;
 }
 
 .projeto-content {
@@ -274,10 +275,11 @@ p {
 }
 
 .grid :nth-child(1) {
-    background-image: url(../imgs/Mongodb_Logo.svg.png);
+    background-image: url(../imgs/ytdl-max.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    zoom: 1;
     /* width: 300px;
     height: 300px; */
 }
