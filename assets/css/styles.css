@@ -175,10 +175,6 @@ p {
     background: linear-gradient(to bottom, rgba(61, 50, 44, 0), #3d322c);
 }
 
-.teste {
-    height: 100vh;
-}
-
 .skill-content {
     display: flex;
     align-items: center;
@@ -251,6 +247,37 @@ p {
     color: white;
     border-radius: 15px;
 
+}
+
+#projetos {
+    height: 100vh;
+    background-color:#654534;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-container h1 {
+    font-size: 85px;
+}
+
+.projeto-content {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 15px;
+    /* position: relative; */
+    justify-content: center;
+    /* align-content: center; */
 }
 
 @keyframes pisca {
