@@ -287,7 +287,7 @@ p {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 0.1fr);
-    gap: 40px;
+    gap: 30px;
     /* position: relative; */
     justify-content: center;
     /* align-content: center; */
