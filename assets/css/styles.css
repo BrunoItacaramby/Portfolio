@@ -293,6 +293,14 @@ p {
     /* align-content: center; */
 }
 
+.footer {
+    width: 100%;
+    background-color: #3d322c;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 @keyframes pisca {
 
     0%,
