@@ -299,6 +299,18 @@ p {
     position: sticky;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.footer-img img {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
 @keyframes pisca {
