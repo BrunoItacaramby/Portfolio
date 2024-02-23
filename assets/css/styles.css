@@ -9,6 +9,10 @@ html {
 }
 
 h1 {
+    font-size: 50px;
+}
+
+h1, h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
@@ -129,7 +133,6 @@ p {
 }
 
 .sobre-mim-content h1 {
-    font-size: 56px;
     margin-bottom: 15px;
     color: white;
 }
@@ -217,7 +220,6 @@ p {
 }
 
 .habilidades-content h1 {
-    font-size: 50px;
     margin: 55px 0;
     color: white;
 }
@@ -262,7 +264,6 @@ p {
 }
 
 .projetos-container h1 {
-    font-size: 85px;
     margin: 35px 0;
     color: white;
 }
@@ -302,7 +303,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    padding: 10px 150px;
+    color: white;
 }
 
 .footer-img img {
