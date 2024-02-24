@@ -288,8 +288,8 @@ p {
 }
 
 .projeto-content {
-    width: 200px;
-    height: 200px;
+    width: min(40vw, 200px);
+    height: min(40vw, 200px);
     background-color: #3d322c;
     border-radius: 25px;
 }
@@ -343,8 +343,8 @@ footer {
 
 .footer-img img {
     margin-left: 15px;
-    width: 55px;
-    height: 55px;
+    width: min(10vw, 55px);
+    height: min(10vw, 55px);
     background-color: white;
     border-radius: 50%;
     border: 1px solid white;
@@ -366,7 +366,7 @@ footer {
     }
 }
 
-@media (max-width: 1010px) {
+/* @media (max-width: 1010px) {
     #img-inicio {
         display: none;
     }
@@ -375,18 +375,104 @@ footer {
         justify-content: center;
         align-items: center;
     }
-}
+} */
 
-@media (max-width: 725px) {
-    .grid {
-        grid-template-columns: repeat(2, 0.1fr);
-    }
-
-    .skill-img {
+@media (min-width: 930px) and (max-width: 1050px) {
+    #img-inicio {
         display: none;
     }
 
-    .skill-text p {
-        padding: 0;
+    .descricao {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 0.1fr);
     }
 }
+
+
+@media (min-width: 550px) and (max-width: 929px) {
+
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.grid {
+    grid-template-columns: repeat(2, 0.1fr);
+}
+
+.skill-img {
+    display: none;
+}
+
+.skill-text p {
+    padding: 0;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 549px) {
+
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.grid {
+    grid-template-columns: repeat(2, 0.1fr);
+}
+
+.skill-img {
+    display: none;
+}
+
+.skill-text p {
+    padding: 0;
+}
+
+}
+
+@media (max-width: 319px) {
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.grid {
+    grid-template-columns: repeat(2, 0.1fr);
+}
+
+.skill-img {
+    display: none;
+}
+
+.skill-text p {
+    padding: 0;
+}
+
+
+}
+
+/* @media (max-width: 450px) {
+    .grid {
+        grid-template-columns: repeat(1, 0.1fr);
+    }
+} */
