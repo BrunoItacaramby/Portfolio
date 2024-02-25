@@ -443,7 +443,7 @@ footer {
 
     .descricao {
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .grid {
@@ -460,7 +460,7 @@ footer {
 
     .descricao {
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 
 
@@ -485,8 +485,9 @@ footer {
     }
 
     .descricao {
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        min-width: fit-content;
+       margin: 0 30px;
     }
 
 
@@ -507,11 +508,6 @@ footer {
 @media (max-width: 319px) {
     #img-inicio {
         display: none;
-    }
-
-    .descricao {
-        justify-content: center;
-        align-items: center;
     }
 
 

@@ -18,9 +18,7 @@ menu1.addEventListener('click', function () {
         document.getElementById('close-menu').checked = false;
         menu2.style.transition = 'all 100ms ease-in'
     menu2.style.transform = 'translateX(0px)'
-    }
-    
-
+    }   
 })   
    
 
