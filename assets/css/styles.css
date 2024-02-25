@@ -74,6 +74,7 @@ p {
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 #img-inicio {
@@ -145,7 +146,8 @@ p {
 }
 
 .sobre-mim-content h1 {
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
+    margin: 55px 0;
     color: white;
 }
 
@@ -260,9 +262,9 @@ p {
 }
 
 #botao-habilidades {
-    padding: 15px;
+    padding: 0.8rem;
     background-color: #654534;
-    font-size: 18px;
+    font-size: min(3.5vw, 20px);
     border: none;
     color: white;
     border-radius: 15px;
