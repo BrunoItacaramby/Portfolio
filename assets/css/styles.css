@@ -116,6 +116,7 @@ p {
     padding: 10px 8rem;
     /* width: 100%; */
     font-size: min(4.5vw, 30px);
+    cursor: pointer;
 }
 
 .meu-nome::after {
@@ -350,10 +351,6 @@ footer {
     background-color: white;
     border-radius: 50%;
     border: 1px solid white;
-}
-
-.grid:hover :nth-child(1) {
-    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
 @keyframes pisca {
