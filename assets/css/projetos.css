@@ -1,0 +1,40 @@
+#projetos {
+    min-height: 45vh;
+    background-color: #654534;
+    padding-bottom: 50px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-container h1 {
+    margin: 35px 0;
+    color: white;
+}
+
+.projeto-content {
+    width: min(40vw, 200px);
+    height: min(40vw, 200px);
+    background-color: #3d322c;
+    border-radius: 25px;
+}
+
+.grid :nth-child(1) {
+    background-image: url(../imgs/ytdl-max.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    zoom: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    gap: 30px;
+    justify-content: center;
+}
