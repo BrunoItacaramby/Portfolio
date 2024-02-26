@@ -1,13 +1,5 @@
 
 @media (min-width: 930px) and (max-width: 1050px) {
-    #img-inicio {
-        display: none;
-    }
-
-    .descricao {
-        justify-content: center;
-        /* align-items: center; */
-    }
 
     .grid {
         grid-template-columns: repeat(2, 0.1fr);
@@ -16,13 +8,6 @@
 
 
 @media (min-width: 550px) and (max-width: 929px) {
-    #img-inicio {
-        display: none;
-    }
-
-    .descricao {
-        justify-content: center;
-    }
 
     .grid {
         grid-template-columns: repeat(2, 0.1fr);
@@ -38,15 +23,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 549px) {
-    
-    #img-inicio {
-        display: none;
-    }
-
-    .descricao {
-        min-width: fit-content;
-        margin: 0 30px;
-    }
 
     .grid {
         grid-template-columns: repeat(2, 0.1fr);
@@ -62,15 +38,6 @@
 }
 
 @media (max-width: 319px) {
-
-
-    #img-inicio {
-        display: none;
-    }
-
-    #img-inicio {
-        display: none;
-    }
 
     .grid {
         grid-template-columns: repeat(2, 0.1fr);

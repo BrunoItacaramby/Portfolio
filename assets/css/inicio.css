@@ -60,3 +60,44 @@
         opacity: 0;
     }
 }
+
+@media (min-width: 930px) and (max-width: 1050px) {
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        justify-content: center;
+        /* align-items: center; */
+    }
+}
+
+@media (min-width: 550px) and (max-width: 929px) {
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 549px) {
+    
+    #img-inicio {
+        display: none;
+    }
+
+    .descricao {
+        min-width: fit-content;
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 319px) {
+
+
+    #img-inicio {
+        display: none;
+    }
+}
