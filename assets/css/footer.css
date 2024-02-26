@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    background-color: #3d322c;
+}
+
+.footer-container {
+    margin: 0 25px;
+}
+
+.footer {
+    position: sticky;
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-img {
+    display: flex;
+}
+
+.footer-img img {
+    margin-left: 15px;
+    width: min(10vw, 55px);
+    height: min(10vw, 55px);
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+}
