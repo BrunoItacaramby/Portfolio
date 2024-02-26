@@ -78,6 +78,7 @@
 .button button {
     position: absolute;
     bottom: 50px;
+    cursor: pointer;
 }
 
 #botao-habilidades {
