@@ -21,23 +21,6 @@ menu1.addEventListener('click', function () {
     }   
 })   
    
-
-
-
-// menu1.addEventListener('click', function () {
-//     menu2.style.right = '0px'
-//     menu2.style.transform = 'translateX(-45px)'
-
-
-//     sr.reveal('#menu-mobile-content', {
-//         // rotate: {x: 0, y: 80, z: 0},
-//         distance: '50px',
-//         origin: 'right',
-//         duration: 500,
-//         delay: 50
-//     });
-// });
-
 window.sr = ScrollReveal({ reset: true})
 
 sr.reveal('.sobre-mim-content', {
@@ -55,31 +38,6 @@ sr.reveal('.skill-content', {
     duration: 500,
     delay: 150
 });
-
-// sr.reveal('.skill2', {
-//     // rotate: {x: 0, y: 80, z: 0},
-//     distance: '200px',
-//     origin: 'right',
-//     duration: 500,
-//     delay: 350
-// });
-
-// sr.reveal('.skill3', {
-//     // rotate: {x: 0, y: 80, z: 0},
-//     distance: '200px',
-//     origin: 'left',
-//     duration: 500,
-//     delay: 550
-// });
-
-// sr.reveal('.skill4', {
-//     // rotate: {x: 0, y: 80, z: 0},
-//     distance: '200px',
-//     origin: 'right',
-//     duration: 500,
-//     delay: 750
-// });
-
 
 
 function typeWriter (nome) {
@@ -106,5 +64,3 @@ button.addEventListener('click', function (){
 }
     
 })
-/* typeWriter(fName); */
-
