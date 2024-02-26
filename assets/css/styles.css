@@ -1,32 +1,5 @@
 
 
-#sobre-mim {
-    min-height: 50vh;
-    background-color: #654534;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sobre-mim-content {
-    padding: 15px;
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sobre-mim-content h1 {
-    margin: 55px 0;
-    color: white;
-}
-
-.sobre-mim-content p {
-    color: white;
-    padding-bottom: 10px;
-    text-align: justify;
-}
-
 #habilidades {
     padding-bottom: 150px;
     max-height: 50rem;
