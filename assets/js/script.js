@@ -1,9 +1,8 @@
-const meuNome = document.querySelector('.meu-nome');
-const fName = meuNome.innerHTML;
+
 var button = document.getElementById('botao-habilidades')
 var habilidade = document.getElementById('habilidades')
 var gradiente = document.getElementById('gradiente')
-meuNome.innerHTML='';
+
 
 
 var menu1 = document.getElementById('menu-mobile')
@@ -40,17 +39,7 @@ sr.reveal('.skill-content', {
 });
 
 
-function typeWriter (nome) {
-    setTimeout( () => {
-    const meuNomeF = nome.split('');
-    meuNome.innerHTML='';
-    meuNomeF.forEach( (letra, index) => {
-        setTimeout(function (){
-            meuNome.innerHTML += letra;
-        }, 150 * index)
-    })}, 1500)
-    
-}
+
 
 button.addEventListener('click', function (){
     if(button.innerHTML === 'Ver Mais'){
