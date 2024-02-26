@@ -105,7 +105,8 @@ p {
     border-radius: 50px;
     border: none;
     color: white;
-    padding: 10px 8rem;    font-size: min(4.5vw, 30px);
+    padding: 10px 8rem;
+    font-size: min(4.5vw, 30px);
     cursor: pointer;
 }
 
@@ -136,12 +137,15 @@ p {
     align-items: center;
 }
 
-.sobre-mim-content h1 {    margin: 55px 0;
+.sobre-mim-content h1 {
+    margin: 55px 0;
     color: white;
 }
 
 .sobre-mim-content p {
-    color: white;    padding-bottom: 10px;    text-align: justify;
+    color: white;
+    padding-bottom: 10px;
+    text-align: justify;
 }
 
 #habilidades {
@@ -184,8 +188,10 @@ p {
 
 
 .skill-text p {
-    padding-right: 45px;    color: white;
-    text-align:justify;}
+    padding-right: 45px;
+    color: white;
+    text-align: justify;
+}
 
 .skill-text h3 {
     padding-bottom: 10px;
@@ -265,12 +271,15 @@ p {
     background-size: contain;
     background-position: center;
     zoom: 1;
-    transition: all 300ms ease-in-out;}
+    transition: all 300ms ease-in-out;
+}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 0.1fr);
-    gap: 30px;    justify-content: center;}
+    gap: 30px;
+    justify-content: center;
+}
 
 footer {
     width: 100%;
@@ -294,7 +303,8 @@ footer {
 }
 
 .footer-img {
-    display: flex;}
+    display: flex;
+}
 
 .footer-img img {
     margin-left: 15px;
@@ -316,7 +326,9 @@ footer {
         opacity: 0;
     }
 }
-#menu-mobile-content {    align-items: center;
+
+#menu-mobile-content {
+    align-items: center;
     justify-content: space-around;
     flex-direction: column;
     position: fixed;
@@ -325,7 +337,8 @@ footer {
     bottom: 50%;
     right: -45px;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
     cursor: pointer;
     border-radius: 2px;
     box-shadow: 1px 1px 10px 0px #000000;
@@ -338,7 +351,8 @@ footer {
 }
 
 #menu-mobile::after {
-    content: '☰';    justify-content: center;
+    content: '☰';
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 10px;
@@ -353,65 +367,50 @@ footer {
     border-radius: 2px;
     display: none;
 }
+
 .close-menu {
     display: none;
 }
+
 @media (min-width: 930px) and (max-width: 1050px) {
     #img-inicio {
         display: none;
-    }    .descricao {
+    }
+
+    .descricao {
         justify-content: center;
         /* align-items: center; */
-    }    .grid {
+    }
+
+    .grid {
         grid-template-columns: repeat(2, 0.1fr);
     }
 }
 
 
-@media (min-width: 550px) and (max-width: 929px) {    #img-inicio {
-        display: none;
-    }    .descricao {
-        justify-content: center;    }.grid {
-    grid-template-columns: repeat(2, 0.1fr);
-}.skill-img {
-    display: none;
-}.skill-text p {
-    padding: 0;
-}}
-
-@media (min-width: 320px) and (max-width: 549px) {    #menu {
-        display: none;
-    }
-
-    #menu-mobile::after {
-        display: flex;
-    }
-
-    #menu-mobile-content {
-        display: flex;
-    }
+@media (min-width: 550px) and (max-width: 929px) {
     #img-inicio {
         display: none;
     }
 
-    .descricao {        min-width: fit-content;
-       margin: 0 30px;
+    .descricao {
+        justify-content: center;
     }
-.grid {
-    grid-template-columns: repeat(2, 0.1fr);
+
+    .grid {
+        grid-template-columns: repeat(2, 0.1fr);
+    }
+
+    .skill-img {
+        display: none;
+    }
+
+    .skill-text p {
+        padding: 0;
+    }
 }
 
-.skill-img {
-    display: none;
-}
-
-.skill-text p {
-    padding: 0;
-}
-}
-
-@media (max-width: 319px) {
-   
+@media (min-width: 320px) and (max-width: 549px) {
     #menu {
         display: none;
     }
@@ -423,22 +422,60 @@ footer {
     #menu-mobile-content {
         display: flex;
     }
+
     #img-inicio {
         display: none;
     }
-   
+
+    .descricao {
+        min-width: fit-content;
+        margin: 0 30px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 0.1fr);
+    }
+
+    .skill-img {
+        display: none;
+    }
+
+    .skill-text p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 319px) {
+
+    #menu {
+        display: none;
+    }
+
+    #menu-mobile::after {
+        display: flex;
+    }
+
+    #menu-mobile-content {
+        display: flex;
+    }
+
     #img-inicio {
         display: none;
     }
-.grid {
-    grid-template-columns: repeat(2, 0.1fr);
-}
 
-.skill-img {
-    display: none;
-}
+    #img-inicio {
+        display: none;
+    }
 
-.skill-text p {
-    padding: 0;
-}
+    .grid {
+        grid-template-columns: repeat(2, 0.1fr);
+    }
+
+    .skill-img {
+        display: none;
+    }
+
+    .skill-text p {
+        padding: 0;
+    }
 }
