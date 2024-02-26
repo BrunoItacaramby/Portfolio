@@ -16,7 +16,6 @@ h1,
 h2,
 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
 h2 {
@@ -28,14 +27,11 @@ p {
 }
 
 li {
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family: 'Courier New', Courier, monospace; */
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 #menu {
@@ -58,10 +54,6 @@ p {
     padding-top: 0;
     padding-bottom: 0;
 }
-
-/* .menu-spacing {
-    height: 5rem;
-} */
 
 .menu-content ul {
     display: flex;
@@ -113,9 +105,7 @@ p {
     border-radius: 50px;
     border: none;
     color: white;
-    padding: 10px 8rem;
-    /* width: 100%; */
-    font-size: min(4.5vw, 30px);
+    padding: 10px 8rem;    font-size: min(4.5vw, 30px);
     cursor: pointer;
 }
 
@@ -146,25 +136,13 @@ p {
     align-items: center;
 }
 
-.sobre-mim-content h1 {
-    /* padding-bottom: 45px; */
-    margin: 55px 0;
+.sobre-mim-content h1 {    margin: 55px 0;
     color: white;
 }
 
 .sobre-mim-content p {
-    color: white;
-    /* font-size: 26px; */
-    padding-bottom: 10px;
-    /* text-indent: 50px; */
-    text-align: justify;
+    color: white;    padding-bottom: 10px;    text-align: justify;
 }
-
-/* .sobre-mim-content h1 {
-    display: block;
-    justify-content: center;
-    align-items: start;
-} */
 
 #habilidades {
     padding-bottom: 150px;
@@ -173,18 +151,6 @@ p {
     overflow: hidden;
     position: relative;
 }
-
-/* #habilidades::after {
-    content: 'aaa ';
-    position: absolute;
-    box-shadow: inset rgb(15, 15, 15) 50px 1rem 5rem ;
-    width: 100%;
-    height: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    z-index: 1;
-} */
 
 #gradiente {
     position: absolute;
@@ -218,12 +184,8 @@ p {
 
 
 .skill-text p {
-    padding-right: 45px;
-    /* font-size: 25px; */
-    color: white;
-    text-align:justify;
-    /* text-indent: 50px; */
-}
+    padding-right: 45px;    color: white;
+    text-align:justify;}
 
 .skill-text h3 {
     padding-bottom: 10px;
@@ -303,20 +265,12 @@ p {
     background-size: contain;
     background-position: center;
     zoom: 1;
-    transition: all 300ms ease-in-out;
-
-    /* width: 300px;
-    height: 300px; */
-}
+    transition: all 300ms ease-in-out;}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 0.1fr);
-    gap: 30px;
-    /* position: relative; */
-    justify-content: center;
-    /* align-content: center; */
-}
+    gap: 30px;    justify-content: center;}
 
 footer {
     width: 100%;
@@ -340,9 +294,7 @@ footer {
 }
 
 .footer-img {
-    display: flex;
-    /* padding-left: 150px; */
-}
+    display: flex;}
 
 .footer-img img {
     margin-left: 15px;
@@ -364,21 +316,7 @@ footer {
         opacity: 0;
     }
 }
-
-/* @media (max-width: 1010px) {
-    #img-inicio {
-        display: none;
-    }
-
-    .descricao {
-        justify-content: center;
-        align-items: center;
-    }
-} */
-
-#menu-mobile-content {
-    /* display: flex; */
-    align-items: center;
+#menu-mobile-content {    align-items: center;
     justify-content: space-around;
     flex-direction: column;
     position: fixed;
@@ -387,9 +325,7 @@ footer {
     bottom: 50%;
     right: -45px;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.1);
-    /* border: 1px solid rgba(255, 255, 255, 0.3); */
-    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);    backdrop-filter: blur(5px);
     cursor: pointer;
     border-radius: 2px;
     box-shadow: 1px 1px 10px 0px #000000;
@@ -402,9 +338,7 @@ footer {
 }
 
 #menu-mobile::after {
-    content: '☰';
-    /* display: flex; */
-    justify-content: center;
+    content: '☰';    justify-content: center;
     align-items: center;
     position: fixed;
     top: 10px;
@@ -419,67 +353,33 @@ footer {
     border-radius: 2px;
     display: none;
 }
-
-/* .close-menu:checked~#menu-mobile-content {
-    transition: all 100ms ease-in;
-    transform: translateX(-45px);
-} */
-
 .close-menu {
     display: none;
 }
-
-/* .close-menu:not(:checked)~#menu-mobile-content {
-    transition: all 100ms ease-in;
-    transform: translateX(0px);
-} */
-
 @media (min-width: 930px) and (max-width: 1050px) {
     #img-inicio {
         display: none;
-    }
-
-    .descricao {
+    }    .descricao {
         justify-content: center;
         /* align-items: center; */
-    }
-
-    .grid {
+    }    .grid {
         grid-template-columns: repeat(2, 0.1fr);
     }
 }
 
 
-@media (min-width: 550px) and (max-width: 929px) {
-
-    #img-inicio {
+@media (min-width: 550px) and (max-width: 929px) {    #img-inicio {
         display: none;
-    }
-
-    .descricao {
-        justify-content: center;
-        /* align-items: center; */
-    }
-
-
-.grid {
+    }    .descricao {
+        justify-content: center;    }.grid {
     grid-template-columns: repeat(2, 0.1fr);
-}
-
-.skill-img {
+}.skill-img {
     display: none;
-}
-
-.skill-text p {
+}.skill-text p {
     padding: 0;
-}
+}}
 
-}
-
-@media (min-width: 320px) and (max-width: 549px) {
-
-
-    #menu {
+@media (min-width: 320px) and (max-width: 549px) {    #menu {
         display: none;
     }
 
@@ -490,19 +390,13 @@ footer {
     #menu-mobile-content {
         display: flex;
     }
-
-
     #img-inicio {
         display: none;
     }
 
-    .descricao {
-        /* justify-content: center; */
-        min-width: fit-content;
+    .descricao {        min-width: fit-content;
        margin: 0 30px;
     }
-
-
 .grid {
     grid-template-columns: repeat(2, 0.1fr);
 }
@@ -514,7 +408,6 @@ footer {
 .skill-text p {
     padding: 0;
 }
-
 }
 
 @media (max-width: 319px) {
@@ -530,8 +423,6 @@ footer {
     #menu-mobile-content {
         display: flex;
     }
-
-
     #img-inicio {
         display: none;
     }
@@ -539,8 +430,6 @@ footer {
     #img-inicio {
         display: none;
     }
-
-
 .grid {
     grid-template-columns: repeat(2, 0.1fr);
 }
@@ -552,12 +441,4 @@ footer {
 .skill-text p {
     padding: 0;
 }
-
-
 }
-
-/* @media (max-width: 450px) {
-    .grid {
-        grid-template-columns: repeat(1, 0.1fr);
-    }
-} */
