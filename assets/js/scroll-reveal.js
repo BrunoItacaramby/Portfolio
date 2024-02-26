@@ -1,7 +1,3 @@
-
-
-
-   
 window.sr = ScrollReveal({ reset: true})
 
 sr.reveal('.sobre-mim-content', {
@@ -19,7 +15,3 @@ sr.reveal('.skill-content', {
     duration: 500,
     delay: 150
 });
-
-
-
-
