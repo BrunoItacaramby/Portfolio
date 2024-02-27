@@ -75,12 +75,6 @@
     justify-content: center;
 }
 
-.button button {
-    position: absolute;
-    bottom: 50px;
-    cursor: pointer;
-}
-
 #botao-habilidades {
     padding: 0.8rem;
     background-color: #654534;
@@ -88,7 +82,9 @@
     border: none;
     color: white;
     border-radius: 15px;
-
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
 }
 
 @media (min-width: 550px) and (max-width: 929px) {

@@ -23,20 +23,21 @@
     border-radius: 25px;
 }
 
-.grid :nth-child(1) {
-    background-image: url(../imgs/ytdl-max.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    zoom: 1;
-    transition: all 300ms ease-in-out;
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 0.1fr);
     gap: 30px;
     justify-content: center;
+}
+
+.projeto-content img {
+    width: min(40vw, 200px);
+    height: min(40vw, 200px);
+    border-radius: 25px;
+}
+
+.projeto-content:hover {
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.3);
 }
 
 @media (min-width: 930px) and (max-width: 1050px) {
