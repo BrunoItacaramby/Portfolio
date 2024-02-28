@@ -39,6 +39,12 @@
     cursor: pointer;
 }
 
+.linkedin button a {
+    color: white;
+    text-decoration: none;
+    /* padding: 10px 550px; */
+}
+
 .meu-nome::after {
     content: '|';
     margin-left: 5px;
