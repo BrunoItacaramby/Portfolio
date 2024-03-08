@@ -1,4 +1,4 @@
-window.sr = ScrollReveal({ reset: true})
+window.sr = ScrollReveal({ reset: true })
 
 sr.reveal('.sobre-mim-content', {
     // rotate: {x: 0, y: 80, z: 0},
