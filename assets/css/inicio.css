@@ -55,6 +55,7 @@
 .meu-nome {
     font-size: min(9.5vw, 56px);
 }
+
 @keyframes pisca {
 
     0%,
@@ -89,7 +90,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 549px) {
-    
+
     #img-inicio {
         display: none;
     }
