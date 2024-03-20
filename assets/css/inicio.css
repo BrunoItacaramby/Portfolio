@@ -36,7 +36,7 @@
 }
 
 .descricao p {
-    font-size: min(5vw, 30px);
+    font-size: min(5vw, 25px);
 }
 
 .meu-nome::after {
@@ -47,7 +47,7 @@
 }
 
 .meu-nome {
-    font-size: min(9.5vw, 56px);
+    font-size: min(9.5vw, 45px);
 }
 
 @keyframes pisca {
