@@ -1,11 +1,8 @@
-#img-inicio {
-    width: 30rem;
-}
-
 #inicio {
-    min-height: 75vh;
+    min-height: 30vh;
     background: rgb(0, 12, 24);
     align-items: center;
+    justify-content: center;
     display: flex;
 }
 
@@ -13,36 +10,33 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    /* width: 500px; */
     margin: 0 10px;
     overflow: hidden;
+}
+
+.socialmedias {
+    display: flex;
+}
+
+.socialmedias img {
+    margin-left: 15px;
+    width: min(10vw, 55px);
+    height: min(10vw, 55px);
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
 .descricao {
     display: flex;
     flex-direction: column;
     color: white;
-    width: 500px;
+    /* width: 100%; */
 }
 
 .descricao p {
     font-size: min(5vw, 30px);
-}
-
-.linkedin button {
-    background-color: #654534;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    padding: 10px 8rem;
-    font-size: min(4.5vw, 30px);
-    cursor: pointer;
-}
-
-.linkedin button a {
-    color: white;
-    text-decoration: none;
-    /* padding: 10px 550px; */
 }
 
 .meu-nome::after {
@@ -68,14 +62,14 @@
     }
 }
 
-@media (min-width: 930px) and (max-width: 1050px) {
+/* @media (min-width: 930px) and (max-width: 1050px) {
     #img-inicio {
         display: none;
     }
 
     .descricao {
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
     }
 }
 
@@ -85,26 +79,25 @@
     }
 
     .descricao {
-        justify-content: center;
+        width: 350px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 549px) {
+@media (min-width: 350px) and (max-width: 549px) {
 
     #img-inicio {
         display: none;
     }
 
     .descricao {
-        min-width: fit-content;
-        margin: 0 30px;
+        width: auto;
     }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 349px) {
 
 
-    #img-inicio {
-        display: none;
+    .descricao {
+        width: 150px;
     }
-}
+} */

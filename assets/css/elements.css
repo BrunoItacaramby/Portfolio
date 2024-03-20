@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background: rgb(0, 12, 24);
+    height: 100vh;
+}
+
 html {
     scroll-behavior: smooth;
 }
