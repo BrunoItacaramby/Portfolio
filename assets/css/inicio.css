@@ -47,7 +47,7 @@
 }
 
 .meu-nome {
-    font-size: min(9.5vw, 45px);
+    font-size: min(8vw, 45px);
 }
 
 @keyframes pisca {
