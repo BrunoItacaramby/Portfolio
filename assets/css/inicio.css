@@ -3,8 +3,8 @@
 }
 
 #inicio {
-    min-height: 100vh;
-    background: #3d322c;
+    min-height: 75vh;
+    background: rgb(0, 12, 24);
     align-items: center;
     display: flex;
 }

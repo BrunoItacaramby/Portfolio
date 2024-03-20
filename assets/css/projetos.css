@@ -1,6 +1,6 @@
 #projetos {
     min-height: 45vh;
-    background-color: #654534;
+    background-color: rgb(0, 12, 24);
     padding-bottom: 50px;
 }
 
@@ -16,28 +16,20 @@
     color: white;
 }
 
-.projeto-content {
-    width: min(40vw, 200px);
-    height: min(40vw, 200px);
-    background-color: #3d322c;
-    border-radius: 25px;
+.projeto h3 {
+    text-decoration: underline;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 0.1fr);
-    gap: 30px;
-    justify-content: center;
+.projeto h3, .projeto p {
+    color: white;
 }
 
-.projeto-content img {
-    width: min(40vw, 200px);
-    height: min(40vw, 200px);
-    border-radius: 25px;
-}
-
-.projeto-content:hover {
-    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.3);
+.projetos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: start;
+    width: 85vw;
 }
 
 @media (min-width: 930px) and (max-width: 1050px) {
