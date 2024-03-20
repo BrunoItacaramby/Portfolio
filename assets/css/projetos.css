@@ -22,6 +22,12 @@
 
 .projeto h3, .projeto p {
     color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.projeto a {
+    color: rgb(171, 171, 240);
 }
 
 .projetos-content {
