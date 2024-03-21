@@ -14,21 +14,16 @@ html {
 }
 
 h1 {
-    font-size: min(8.5vw, 35px);
+    font-size: min(8vw, 35px);
 }
 
 h1,
-h2,
 h3, a, p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
-    font-size: min(6.5vw, 28px);
-}
-
-h2 {
-    font-size: min(6.5vw, 18px);
+    font-size: min(5.5vw, 25px);
 }
 
 p, a {

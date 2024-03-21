@@ -18,16 +18,3 @@ footer {
     bottom: 0;
     left: 0;
 }
-
-.footer-img {
-    display: flex;
-}
-
-.footer-img img {
-    margin-left: 15px;
-    width: min(10vw, 55px);
-    height: min(10vw, 55px);
-    background-color: white;
-    border-radius: 50%;
-    border: 1px solid white;
-}

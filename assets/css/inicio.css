@@ -9,20 +9,22 @@
 .inicio-content {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     /* width: 500px; */
     margin: 0 10px;
     overflow: hidden;
 }
 
 .socialmedias {
+    position: relative;
     display: flex;
+    justify-content: center;
 }
 
 .socialmedias img {
     margin-left: 15px;
-    width: min(10vw, 55px);
-    height: min(10vw, 55px);
+    width: min(10vw, 45px);
+    height: min(10vw, 45px);
     background-color: white;
     border-radius: 50%;
     border: 1px solid white;

@@ -17,12 +17,12 @@
 #sobre-mim h1 {
     margin: 25px 0;
     /* color: rgb(47, 101, 238); */
-    color: #ccc
+    color: white
 }
 
 .sobre-mim-content p {
     color: white;
     padding-bottom: 25px;
-    line-height: 40px;
+    line-height: 30px;
     text-align: justify;
 }
